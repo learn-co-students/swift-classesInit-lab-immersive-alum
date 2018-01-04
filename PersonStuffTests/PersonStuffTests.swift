@@ -48,7 +48,7 @@ extension PersonStuffTests {
     }
     
     func testDance() {
-        becky.happiness = 0
+       becky.happiness = 0
         let jessica = Person(firstName: "Jessica", lastName: "Rose")
         let result = becky.dance(with: jessica)
         XCTAssertEqual(result, "💃🏼Becky Bernstein❤️ ❤️Jessica Rose💃🏼")
